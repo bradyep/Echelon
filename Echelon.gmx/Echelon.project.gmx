@@ -5,8 +5,19 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
-  <backgrounds name="background"/>
+  <sprites name="sprites">
+    <sprite>sprites\spr_bomb</sprite>
+    <sprite>sprites\spr_brokenGroundLeft</sprite>
+    <sprite>sprites\spr_brokenGroundRight</sprite>
+    <sprite>sprites\spr_ground</sprite>
+    <sprite>sprites\spr_playerDiving</sprite>
+    <sprite>sprites\spr_playerFall</sprite>
+    <sprite>sprites\spr_PlayerReady</sprite>
+    <sprite>sprites\spr_spaceShip</sprite>
+  </sprites>
+  <backgrounds name="background">
+    <background>background\bg_main</background>
+  </backgrounds>
   <paths name="paths"/>
   <rooms name="rooms">
     <room>rooms\rm_gameStart</room>
